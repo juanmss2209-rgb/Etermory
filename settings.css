@@ -1,0 +1,92 @@
+main{
+
+margin-left:260px;
+
+padding:50px;
+
+}
+
+h1{
+
+margin-bottom:40px;
+
+font-size:42px;
+
+}
+
+.settings-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:25px;
+
+margin-bottom:25px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.05);
+
+}
+
+.settings-card h2{
+
+margin-bottom:20px;
+
+}
+
+.settings-card input[type=text],
+.settings-card textarea{
+
+width:100%;
+
+padding:15px;
+
+border-radius:15px;
+
+border:1px solid #E5E5E5;
+
+margin-bottom:20px;
+
+font-size:16px;
+
+}
+
+.settings-card textarea{
+
+height:130px;
+
+resize:none;
+
+}
+
+.settings-card button{
+
+padding:15px 30px;
+
+border:none;
+
+border-radius:50px;
+
+background:#F6D365;
+
+cursor:pointer;
+
+font-size:15px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.settings-card button:hover{
+
+background:#EFC14B;
+
+}
+
+.logout{
+
+background:#ffb4b4 !important;
+
+}

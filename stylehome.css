@@ -1,0 +1,129 @@
+header{
+
+height:80px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:0 60px;
+
+background:white;
+
+box-shadow:0 5px 20px rgba(0,0,0,.04);
+
+}
+
+header .logo{
+
+font-size:22px;
+
+font-weight:600;
+
+color:#333;
+
+}
+
+.icons i{
+
+font-size:22px;
+
+margin-left:30px;
+
+cursor:pointer;
+
+color:#F6D365;
+
+transition:.3s;
+
+}
+
+.icons i:hover{
+
+transform:scale(1.1);
+
+}
+
+main{
+
+width:900px;
+
+margin:50px auto;
+
+}
+
+.welcome h1{
+
+font-size:40px;
+
+color:#333;
+
+}
+
+.welcome p{
+
+margin-top:10px;
+
+margin-bottom:40px;
+
+}
+
+.memory{
+
+background:white;
+
+border-radius:30px;
+
+overflow:hidden;
+
+margin-bottom:35px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.05);
+
+transition:.4s;
+
+}
+
+.memory:hover{
+
+transform:translateY(-8px);
+
+}
+
+.memory img{
+
+width:100%;
+
+display:block;
+
+}
+
+.content{
+
+padding:30px;
+
+}
+
+.content h2{
+
+font-size:30px;
+
+margin-bottom:15px;
+
+color:#333;
+
+}
+
+.content p{
+
+margin-bottom:25px;
+
+}
+
+.content button{
+
+margin-top:0;
+
+}

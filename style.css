@@ -1,0 +1,277 @@
+/* ========= RESET ========= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Outfit",sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:#FAFAF8;
+    color:#2F2F2F;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow-x:hidden;
+
+    position:relative;
+
+}
+
+/* ========= BACKGROUND ========= */
+
+.background-circle{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(140px);
+
+    z-index:-1;
+
+}
+
+.one{
+
+    width:450px;
+    height:450px;
+
+    background:#FFF2B3;
+
+    top:-150px;
+    left:-120px;
+
+}
+
+.two{
+
+    width:350px;
+    height:350px;
+
+    background:#FFE9F1;
+
+    bottom:-100px;
+    right:-100px;
+
+}
+
+/* ========= CONTAINER ========= */
+
+.container{
+
+    width:100%;
+    max-width:900px;
+
+    text-align:center;
+
+    animation:fade 1.3s ease;
+
+}
+
+/* ========= LOGO ========= */
+
+.star{
+
+    font-size:48px;
+
+    color:#F6D365;
+
+    margin-bottom:20px;
+
+    animation:float 4s ease-in-out infinite;
+
+}
+
+.logo h1{
+
+    font-size:72px;
+
+    letter-spacing:16px;
+
+    font-weight:300;
+
+}
+
+.logo p{
+
+    margin-top:18px;
+
+    color:#777;
+
+    font-size:18px;
+
+}
+
+/* ========= BOTÕES ========= */
+
+.buttons{
+
+    margin-top:55px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+.btn-primary{
+
+    text-decoration:none;
+
+    background:#F6D365;
+
+    color:#2F2F2F;
+
+    padding:18px 42px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-5px);
+
+    background:#EFC14B;
+
+}
+
+.btn-secondary{
+
+    background:white;
+
+    border:1px solid #E6E6E6;
+
+    padding:18px 42px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.35s;
+
+}
+
+.btn-secondary:hover{
+
+    transform:translateY(-5px);
+
+}
+
+/* ========= FOOTER ========= */
+
+footer{
+
+    position:absolute;
+
+    bottom:30px;
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+footer p{
+
+    color:#999;
+
+    font-size:14px;
+
+}
+
+/* ========= ANIMAÇÕES ========= */
+
+@keyframes fade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ========= RESPONSIVO ========= */
+
+@media(max-width:768px){
+
+.logo h1{
+
+font-size:48px;
+
+letter-spacing:10px;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+width:220px;
+
+text-align:center;
+
+}
+
+}
