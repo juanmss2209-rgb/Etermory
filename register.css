@@ -1,0 +1,187 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Outfit",sans-serif;
+}
+
+body{
+    background:#FAFAF8;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+}
+
+/* ==========================
+   BACKGROUND
+========================== */
+
+.background{
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#FFF5C9;
+    border-radius:50%;
+    filter:blur(150px);
+    z-index:0;
+}
+
+/* ==========================
+   CONTAINER
+========================== */
+
+.container{
+    position:relative;
+    z-index:1;
+    width:430px;
+    background:#FFFFFF;
+    padding:45px;
+    border-radius:30px;
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+}
+
+/* ==========================
+   LOGO
+========================== */
+
+.logo{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.logo h1{
+    color:#F6D365;
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.logo p{
+    color:#888;
+}
+
+/* ==========================
+   FORM
+========================== */
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+form input{
+    padding:16px;
+    border:1px solid #E5E5E5;
+    border-radius:15px;
+    outline:none;
+    font-size:15px;
+    transition:.3s;
+}
+
+form input:focus{
+    border-color:#F6D365;
+}
+
+form button{
+    margin-top:10px;
+    padding:17px;
+    border:none;
+    border-radius:50px;
+    background:#F6D365;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+form button:hover{
+    background:#EFC14B;
+    transform:translateY(-3px);
+}
+
+/* ==========================
+   DIVIDER
+========================== */
+
+.divider{
+    text-align:center;
+    margin:30px 0 20px;
+    color:#999;
+}
+
+/* ==========================
+   SOCIAL
+========================== */
+
+.social{
+    display:flex;
+    gap:15px;
+}
+
+.social button{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    background:#F7F7F7;
+    transition:.3s;
+    font-size:15px;
+}
+
+.social button:hover{
+    background:#EFEFEF;
+}
+
+.google i{
+    color:#DB4437;
+    margin-right:8px;
+}
+
+.apple i{
+    margin-right:8px;
+}
+
+/* ==========================
+   LOGIN
+========================== */
+
+.login{
+    margin-top:30px;
+    text-align:center;
+    color:#777;
+}
+
+.login a{
+    text-decoration:none;
+    color:#F6D365;
+    font-weight:600;
+}
+
+.login a:hover{
+    text-decoration:underline;
+}
+
+/* ==========================
+   RESPONSIVO
+========================== */
+
+@media(max-width:500px){
+
+.container{
+    width:90%;
+    padding:35px 25px;
+}
+
+.social{
+    flex-direction:column;
+}
+
+}

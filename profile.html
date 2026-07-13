@@ -3,155 +3,84 @@
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Etemory • Profile</title>
+    <title>Etemory • Profile</title>
 
-<link rel="stylesheet" href="css/home.css">
-<link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/profile.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
 <body>
 
-<aside class="sidebar">
+    <header class="profile-header">
 
-<h2>✦ ETEMORY</h2>
+        <img id="profileImage"
+        src="https://i.pravatar.cc/200"
+        alt="Profile">
 
-<nav>
+        <h1 id="profileName">
 
-<a href="home.html">
-<i class="fa-solid fa-house"></i>
-Home
-</a>
+            Loading...
 
-<a href="collections.html">
-<i class="fa-solid fa-folder"></i>
-Collections
-</a>
+        </h1>
 
-<a href="new-memory.html">
-<i class="fa-solid fa-plus"></i>
-New Memory
-</a>
+        <p id="profileEmail">
 
-<a class="active">
-<i class="fa-solid fa-user"></i>
-Profile
-</a>
+            Loading...
 
-<a href="settings.html">
-<i class="fa-solid fa-gear"></i>
-Settings
-</a>
+        </p>
 
-</nav>
+        <button id="editProfile">
 
-</aside>
+            Edit Profile
 
-<main>
+        </button>
 
-<section class="profile-header">
+    </header>
 
-<img src="https://i.pravatar.cc/250" class="avatar">
+    <section class="stats">
 
-<div>
+        <div>
 
-<h1>Juan Martins</h1>
+            <h2 id="memoryCount">0</h2>
 
-<p class="username">@juan</p>
+            <span>Memories</span>
 
-<p class="bio">
+        </div>
 
-Keeping memories alive, one moment at a time.
+        <div>
 
-</p>
+            <h2>0</h2>
 
-<div class="stats">
+            <span>Collections</span>
 
-<div>
+        </div>
 
-<h2>127</h2>
+        <div>
 
-<span>Memories</span>
+            <h2>0</h2>
 
-</div>
+            <span>Followers</span>
 
-<div>
+        </div>
 
-<h2>9</h2>
+    </section>
 
-<span>Collections</span>
+    <section
+    class="profile-feed"
+    id="profileFeed">
 
-</div>
+    </section>
 
-<div>
-
-<h2>64</h2>
-
-<span>Favorites</span>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<h2 class="title">
-
-Recent Memories
-
-</h2>
-
-<section class="gallery">
-
-<div class="memory">
-
-<img src="https://picsum.photos/400?random=1">
-
-</div>
-
-<div class="memory">
-
-<img src="https://picsum.photos/400?random=2">
-
-</div>
-
-<div class="memory">
-
-<img src="https://picsum.photos/400?random=3">
-
-</div>
-
-<div class="memory">
-
-<img src="https://picsum.photos/400?random=4">
-
-</div>
-
-<div class="memory">
-
-<img src="https://picsum.photos/400?random=5">
-
-</div>
-
-<div class="memory">
-
-<img src="https://picsum.photos/400?random=6">
-
-</div>
-
-</section>
-
-</main>
+    <script type="module"
+    src="js/profile.js"></script>
 
 </body>
 

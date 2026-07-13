@@ -126,4 +126,149 @@ margin-bottom:25px;
 
 margin-top:0;
 
+.profile-mini{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+.profile-mini .avatar{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin-bottom:15px;
+
+    border:4px solid #F6D365;
+
+}
+
+.profile-mini h3{
+
+    font-size:18px;
+
+}
+
+.profile-mini p{
+
+    font-size:13px;
+
+    color:#888;
+
+}
+
+#logout{
+
+    margin-top:40px;
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:#F6D365;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+#logout:hover{
+
+    background:#EFC14B;
+
+    .feed{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+
+    gap:30px;
+
+    margin-top:30px;
+
+}
+
+.memory-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.memory-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.memory-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+
+.memory-info{
+
+    padding:20px;
+
+}
+
+.memory-info h2{
+
+    margin-bottom:10px;
+
+    font-size:22px;
+
+}
+
+.memory-info p{
+
+    color:#777;
+
+    margin-bottom:15px;
+
+    line-height:1.6;
+
+}
+
+.memory-info span{
+
+    background:#FFF4B5;
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+}
+
+}
 }
